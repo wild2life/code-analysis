@@ -1,0 +1,26 @@
+{
+  "name": "code-analysis",
+  "version": "1.0.0",
+  "description": "记录各种源码学习",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wild2life/code-analysis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wild2life/code-analysis/issues"
+  },
+  "homepage": "https://github.com/wild2life/code-analysis#readme",
+  "author": "wildlife",
+  "scripts": {
+    "start": "pnpm --filter='react-v18.2.0' start",
+    "create-vue": "bun run './create-vue-v3.7.3/index.ts'",
+    "lint": "prettier --write ."
+  },
+  "devDependencies": {
+    "@femm/prettier": "^1.1.0",
+    "prettier": "^2.8.8"
+  },
+  "prettier": "@femm/prettier",
+  "packageManager": "pnpm@10.6.2"
+}
